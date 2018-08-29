@@ -1,0 +1,21 @@
+<div class = "nav">
+  <b-jumbotron header="Menu">
+    <hr>
+    <b-img rounded="circle" src="https://mbevivino.files.wordpress.com/2011/08/silhouette_i-m-congnito.jpg" width="75" height="75" />
+    <div class = "name"> Ali Zain </div>
+    <hr>
+    <router-link to="/about">About</router-link>
+    <br>
+    <router-link to="/">Home</router-link>
+    <br>
+    <div>
+    <b-dropdown id="ddown-divider" text="Detail" class="m-2">
+      <b-dropdown-item-button><router-link to="/detail/experience"> Experience </router-link></b-dropdown-item-button>
+      <b-dropdown-divider></b-dropdown-divider>
+      <b-dropdown-item-button><b-dropdown-item-button><router-link to="/detail/skill"> Skill </router-link></b-dropdown-item-button></b-dropdown-item-button>
+      <b-dropdown-divider></b-dropdown-divider>
+      <b-dropdown-item-button><router-link to="/detail/spec"> Specifications </router-link></b-dropdown-item-button>
+    </b-dropdown>
+</div>
+  </b-jumbotron>
+</div>
